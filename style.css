@@ -1,0 +1,62 @@
+
+body {
+    font-family: Roboto, sans-serif;
+    background-image:url(pexels-photo-583846.jpeg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    margin:0px;
+}
+
+.green {
+    background: #5ece3c;
+    border-bottom: solid 3px #7d9b43;
+    color: #ffffff;
+    text-shadow: 0 1px 0 #d0e5a4; 
+    padding: 8px 40px;
+    border-radius: 5px;
+    font-size:100%;
+    line-height: 30px;       
+    text-align: center;
+    text-decoration: none;
+    
+    }
+    
+.green:hover {
+background: #7d9b43;
+    color: #ffffff;
+    text-shadow: 0 1px 0 #d0e5a4; 
+    padding: 8px 40px;
+    border-radius: 5px;
+    font-size:100%;
+    line-height: 30px;       
+    text-align: center;
+    text-decoration: none;
+    }
+
+    .blue {
+        height: 10%;
+        line-height: 10px; 
+        color: rgb(41, 102, 214);
+        border-style: solid;
+        border-radius: 2px;
+        border-width: 0.1px;  
+        cursor: pointer;
+        font-size: 100%;
+        text-align: center;
+        padding:5px 16px;
+        text-decoration: none;
+        width: 10px;
+    }
+    
+   
+    .go{
+        color: blue;
+    }
+
+    .go:hover{
+        color: black;
+        cursor: pointer;
+    } 
+
+
