@@ -1,0 +1,74 @@
+.main {
+  font-family: Roboto, sans-serif;
+  background-image:url(pexels-photo-583846.jpeg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment:fixed;
+  margin:0px;
+}
+
+
+.greenbutton {
+  background: #5ece3c;
+  color: #ffffff;
+  padding: 2px 29px;
+  border-radius: 5px;
+  font-size:100%;       
+  text-align: center;
+  text-decoration: none;
+
+
+  }
+
+.greenbutton:hover {
+  background: #7d9b43;
+
+  }
+
+  .bluebutton { 
+      line-height: 40px;
+      color: rgb(41, 102, 214);
+      border-style: solid;
+      border-radius: 2px;
+      border-width: 0.1px;  
+      cursor: pointer;
+      font-size: 100%;
+      text-align: center;
+      padding:2px 5px;
+      text-decoration: none;
+      max-width: 10px;
+  }
+
+
+  .go{
+      color: blue;
+  }
+
+  .go:hover{
+      color: black;
+      cursor: pointer;
+  } 
+
+.dfloat{
+  display: flex;
+  flex-wrap: wrap;
+  float: left;
+  width:22%;
+  min-width: 300px;
+  padding:7px;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  color: rgb(72, 132, 230);
+  margin: 4px;
+
+
+}
+.dfloat:hover{
+  background-color: rgb(253, 253, 253);
+}
+
+.dtitle{
+    text-align: center;
+
+}
+
