@@ -1,0 +1,45 @@
+.parent {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  background-color: rgb(5, 85, 18)
+
+}
+
+.block {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -125px 0 0 -125px;
+  background-color: blue;
+  color:white ;
+}
+
+.ptwo {
+  background-color: rgb(5, 85, 18);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  align-content: center; 
+  justify-content: center; 
+
+
+}
+
+.btwo {
+  width: 250px;
+  height: 250px;
+  background-color: blue;
+  color:white ;
+  display: block;
+  border: none;
+}
