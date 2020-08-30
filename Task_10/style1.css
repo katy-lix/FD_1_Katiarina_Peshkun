@@ -292,8 +292,6 @@ header{
 /* //////////////////// */
 .container_lorem{
     display: flex;
-    margin-left: 20px;
-    margin-right: 20px;
 
 }
 .col_1{
@@ -321,13 +319,12 @@ header{
 
 }
 
-@media ( max-width:800px){
+ @media ( max-width:800px){
     .rabbit_img{
-  list-style: none;
+
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-  flex-flow:column;
 
      
      
@@ -337,9 +334,17 @@ header{
 
 .span_center{
     display: flex;
-    justify-content: inherit;
-    padding-left: 100px;
-    margin: 1%;
+    justify-content: center;
+    
+    
+}
+@media (max-width: 800px){
+
+    .span_center{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;    
+    }
 }
 /* .rabbit1.rabbit2.rabbit3 {
     width: 320px;
@@ -364,10 +369,11 @@ header{
     border-width:7px;
     background-size: cover;
     background-repeat: no-repeat;
+    float: top;
     /* margin: 10px; */
 
    }
-   @media ( max-width:800px){
+   /* @media ( max-width:800px){
     .rabbit1{
   list-style: none;
   display: flex;
@@ -376,7 +382,7 @@ header{
   width: 270px;
     height: 270px;
      
-    }}
+    }} */
    .rabbit2{
     background-image: url(./img/rabbit2.jpg);
     background-position: -84px 0;
@@ -392,7 +398,7 @@ header{
   
 
    }
-   @media ( max-width:800px){
+   /* @media ( max-width:800px){
     .rabbit2{
   list-style: none;
   display: flex;
@@ -401,7 +407,7 @@ header{
   width: 270px;
     height: 270px;
      
-    }}
+    }} */
    .rabbit3{
     background-image: url(./img/orange.jpg);
     width: 320px;
@@ -412,10 +418,10 @@ header{
     border:solid orange;
     background-size: cover;
     background-repeat: no-repeat;
-    border-width: 7px;
+    border-width: 7px;}
    
 
-   } @media ( max-width:800px){
+   /* @media ( max-width:800px){
     .rabbit3{
   list-style: none;
   display: flex;
@@ -424,8 +430,8 @@ header{
   width: 270px;
     height: 270px;
      
-    }}
-  
+    }} */
+   
 
    .meet{
     color:orange;
@@ -435,6 +441,20 @@ header{
     font-family: StMarie-Thin; 
    
 }
+@media ( max-width:800px){
+.figure_rabbit{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+  
+}}
+    .figure_rabbit{
+        display: flex;
+        justify-content: center;
+        flex-wrap:wrap;
+        margin:2%;
+      
+    }
 
 /* /////////////////////////// */
 
